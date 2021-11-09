@@ -6,3 +6,13 @@
 wmain()是UNICODE版本的main(),
 3)_tmain()是个宏,如果是UNICODE则他是wmain()否则他是main()
 外,wmain也是main的另一個别名,是为了支持二个字节的语言环境
+
+//声明:
+IsIconic(
+  hWnd: HWND {窗口句柄}
+): BOOL;
+
+IsZoomed(
+  hWnd: HWND {窗口句柄}
+): BOOL;
+
