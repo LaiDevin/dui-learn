@@ -16,3 +16,6 @@ IsZoomed(
   hWnd: HWND {窗口句柄}
 ): BOOL;
 
+OffsetRect
+GetWindowRect
+CreateRoundRectRgn

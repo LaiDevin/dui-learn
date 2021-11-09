@@ -17,6 +17,7 @@ LRESULT CLoginDialog::HandleMessage(UINT uMsg, WPARAM wParam, LPARAM lParam)
 	switch (uMsg)
 	{
 	case WM_CREATE: lRes = OnCreate(uMsg, wParam, lParam, bHandled); break;
+	case WM_NCLBUTTONDBLCLK: break;
 
 	case WM_NCCALCSIZE:    lRes = OnNcCalcSize(uMsg, wParam, lParam, bHandled); break;
 		//去除显示的标题栏
@@ -94,6 +95,14 @@ LRESULT CLoginDialog::OnCreate(UINT uMsg, WPARAM wParam, LPARAM lParam, BOOL& bH
 
 LRESULT CLoginDialog::OnSize(UINT uMsg, WPARAM wParam, LPARAM lParam, BOOL& bHandled)
 {
+#if 0
+	if (::IsZoomed(*this))
+	{
+		bHandled = TRUE;
+		return 0;
+	}
+#endif
+
 	SIZE szRoundCorner = m_paintManagerUI.GetRoundCorner();
 	if (!::IsIconic(*this) && (szRoundCorner.cx != 0 || szRoundCorner.cy != 0)) {
 		CDuiRect rcWnd;

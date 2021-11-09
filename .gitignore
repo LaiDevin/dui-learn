@@ -6,3 +6,5 @@
 *.user
 dui-test/.vs
 dui-test/.vs/*
+*.obj
+*.idb
