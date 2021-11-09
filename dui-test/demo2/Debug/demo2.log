@@ -1,0 +1,3 @@
+﻿  app.cpp
+D:\Mock\dui-learn\dui-test\DuiLib\Core\UIManager.h(45,2): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+  demo2.vcxproj -> D:\Mock\dui-learn\dui-test\bin\Debug\demo2_d.exe

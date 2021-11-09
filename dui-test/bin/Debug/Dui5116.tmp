@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="400,240" roundcorner="4,4">
+    <Font name="@微软雅黑" size="13" bold="false" italic="false" />
+    <Font name="@宋体" size="13" bold="false" italic="false" />
+    <Font name="@黑体" size="15" bold="false" italic="false" />
+    <Font name="微软雅黑" size="13" bold="false" italic="false" />
+    <VerticalLayout enabled="true" width="400" height="240" bkcolor="#FFE6E4E4">
+        <HorizontalLayout float="true" pos="0,0,0,0" enabled="true" width="400" height="26" bkcolor="#FF495CCF">
+            <HorizontalLayout enabled="true" height="26" padding="5,0,0,0" inset="5,0,0,0">
+                <Label text="用户登录" float="true" pos="0,0,0,0" enabled="true" width="100" height="24" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="3" />
+            </HorizontalLayout>
+            <HorizontalLayout enabled="true" width="42" height="23" padding="0,3,0,0" maxheight="23" maxwidth="42" minwidth="42" minheight="23" relativepos="0,0,0,0">
+                <Button name="minbtn" enabled="true" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;img/min_nor.png&apos; dest=&apos;0,0,21,21&apos; source=&apos;0,0,21,21&apos;" hotimage="file=&apos;img/min_hor.png&apos; dest=&apos;0,0,21,21&apos; source=&apos;0,0,21,21&apos;" />
+                <Button name="closebtn" enabled="true" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;img/close_nor.png&apos; dest=&apos;0,0,21,21&apos; source=&apos;0,0,21,21&apos;" hotimage="file=&apos;img/close_hor.png&apos; dest=&apos;0,0,21,21&apos; source=&apos;0,0,21,21&apos;" />
+            </HorizontalLayout>
+        </HorizontalLayout>
+    </VerticalLayout>
+</Window>

@@ -1,0 +1,8 @@
+*.ilk
+*.pdb
+*.exe
+*.dll
+*.suo
+*.user
+dui-test/.vs
+dui-test/.vs/*

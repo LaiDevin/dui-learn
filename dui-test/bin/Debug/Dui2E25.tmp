@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="400,240" roundcorner="4,4">
+    <Font name="@微软雅黑" size="13" bold="false" italic="false" />
+    <Font name="@宋体" size="13" bold="false" italic="false" />
+    <Font name="@黑体" size="15" bold="false" italic="false" />
+    <VerticalLayout enabled="true" width="400" height="240" bkcolor="#FFE6E4E4">
+        <HorizontalLayout float="true" pos="0,0,0,0" enabled="true" width="400" height="26">
+            <HorizontalLayout enabled="true" height="26" padding="5,0,0,0" inset="5,0,0,0">
+                <Label text="用户登录" float="true" pos="0,0,0,0" enabled="true" width="100" height="26" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+            </HorizontalLayout>
+            <HorizontalLayout enabled="true" width="300" height="26" maxheight="26" maxwidth="42" minwidth="42" minheight="24" relativepos="0,0,0,0" inset="0,2,0,0">
+                <Button float="true" pos="0,1,0,0" enabled="true" width="21" height="21" bkimage="file=&apos;min_nor.png&apos; dest=&apos;0,0,21,21&apos; source=&apos;0,0,21,21&apos; mask=&apos;0xfffffbf0&apos;" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;min_nor.png&apos; dest=&apos;0,0,21,21&apos; source=&apos;0,0,21,21&apos; mask=&apos;0xfffffbf0&apos;" hotimage="file=&apos;min_hor.png&apos; dest=&apos;0,0,21,21&apos; source=&apos;0,0,21,21&apos; corner=&apos;1,1,1,1&apos; mask=&apos;0xffffffff&apos;" />
+                <Button float="true" pos="21,4,0,0" enabled="true" width="21" height="21" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;close_nor.png&apos; dest=&apos;0,0,21,21&apos; source=&apos;0,0,21,21&apos;" />
+            </HorizontalLayout>
+        </HorizontalLayout>
+    </VerticalLayout>
+</Window>
